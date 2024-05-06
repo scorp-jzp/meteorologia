@@ -1,5 +1,3 @@
-const { default: axios } = require("axios");
-
 function refreshWeather(response) {
     let temperatureElement = document.querySelector("#temperature");
     let temperature = response.data.temperature.current;
